@@ -1,4 +1,3 @@
-
 void setup()
 {
   size(400, 400);
@@ -28,8 +27,10 @@ void draw()
   ellipse(220, 140, 15, 15);
 
   // Nose
+  fill(255);
+  ellipse(200,165,8,5);
   fill(0);
-  ellipse(200, 160, 8, 8);
+  ellipse(200, 160, 15, 8);
 
   // Ears
   fill(128, 94, 66);
@@ -44,4 +45,3 @@ void draw()
   ellipse(225, 220, 17,20);
 
 }
-
